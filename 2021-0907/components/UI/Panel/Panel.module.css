@@ -1,0 +1,25 @@
+.panel {
+  border: 3px solid #b99eef;
+  padding: 16px 20px;
+  box-shadow: 0 3px 20px #75cbf5, inset 0 0 5px #75cbf5;
+  border-radius: 40px;
+  justify-content: space-between;
+  background-color: #00275a;
+  /* background-image: url(/img/logo-300x300.png);
+  background-size: auto 100%; */
+  background-repeat: no-repeat;
+  background-position: right -8px bottom;
+  color: #8ac5f5;
+  margin: 8px 0;
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 32px;
+}
+
+@media (min-width: 768px) {
+  .panel {
+    margin: 12px 0;
+    padding-right: 40px;
+  }
+}

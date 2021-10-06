@@ -1,0 +1,17 @@
+.card {
+  width: 100%;
+  border: 3px solid #b99eef;
+
+  background: linear-gradient(to right bottom, #120e61, #574c7f);
+  box-shadow: 0 3px 20px #b99eef, inset 0 0 5px #75cbf5;
+  border-radius: 15px;
+  padding: 12px;
+  margin: 8px 0;
+}
+
+@media (min-width: 768px) {
+  .card {
+    padding: 16px;
+    margin: 16px 0;
+  }
+}

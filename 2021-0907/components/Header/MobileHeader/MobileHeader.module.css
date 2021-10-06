@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 80px;
+  padding: 8px 20px 8px 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+@media (min-width: 1200px) {
+  .header {
+    display: none;
+    min-height: 120px;
+  }
+}

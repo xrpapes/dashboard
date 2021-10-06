@@ -1,0 +1,8 @@
+.mobileMenuContent {
+  padding: 16px 24px;
+  display: grid;
+  gap: 16px;
+  align-items: flex-start;
+  place-content: center;
+  grid-auto-columns: min-content;
+}

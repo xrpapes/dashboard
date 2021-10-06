@@ -1,0 +1,19 @@
+.buttton {
+  cursor: pointer;
+  height: auto;
+  line-height: normal;
+  padding: 10px 25px;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 24px;
+  border: none;
+  white-space: nowrap;
+  background: linear-gradient(to right, #bb79ea 0%, rgba(37, 184, 213, 1) 99%);
+  margin: 0 4px;
+}
+
+.buttton:hover {
+  transition: all 0.5s ease;
+  background: linear-gradient(to left, #bb79ea 0%, rgba(37, 184, 213, 1) 99%);
+}

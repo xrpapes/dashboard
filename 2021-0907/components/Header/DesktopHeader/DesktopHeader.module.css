@@ -1,0 +1,15 @@
+.header {
+  min-height: 80px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  display: none;
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .header {
+    display: flex;
+    min-height: 120px;
+  }
+}
